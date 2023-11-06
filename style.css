@@ -1,6 +1,7 @@
 body{
     background-color: #5A5D59;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('img/bg-img.png');
 }
 
 .wrapper{
@@ -62,6 +63,7 @@ th[scope="col"] {
 
 caption {
     font-size: x-large;
+    color: #2f9ddd;
 }
 
 a{
