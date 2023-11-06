@@ -7,7 +7,7 @@ body{
 .wrapper{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px 80px auto 50px;;
+    grid-template-rows: 80px 80px auto 50px;
     grid-template-areas: 
         "header"
         "nav"
@@ -49,11 +49,16 @@ nav a:hover {
 
 main{
     grid-area: main;
+    color: #106da3;
 }
 
 footer{
     grid-area: footer;
+    background-color: #919191;
+    text-align: center;
 }
+
+
 
 th {
     border: 1 px solid rgb(0, 0, 0);
@@ -84,4 +89,9 @@ caption {
 a{
     text-decoration: none;
     text-decoration-color: black;
+}
+
+img{
+    max-width: 50%;
+    max-height: 50%;
 }
